@@ -1,3 +1,3 @@
 # Async_API_ASP.NETCore
 
-![Screenshot](screenshot.png)
+![Screenshot](Asnchronous request with 3 threads for 20 seconds.PNG)
