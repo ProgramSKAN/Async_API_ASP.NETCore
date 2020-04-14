@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sandeep.kandagatla\\source\\repos\\Books\\Books.Api\\Books.Api.csproj": {}
+    "C:\\Users\\kanda\\Downloads\\Async_API_ASP.NETCore-master\\Async_API_ASP.NETCore-master\\Books.Api\\Books.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sandeep.kandagatla\\source\\repos\\Books\\Books.Api\\Books.Api.csproj": {
+    "C:\\Users\\kanda\\Downloads\\Async_API_ASP.NETCore-master\\Async_API_ASP.NETCore-master\\Books.Api\\Books.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sandeep.kandagatla\\source\\repos\\Books\\Books.Api\\Books.Api.csproj",
+        "projectUniqueName": "C:\\Users\\kanda\\Downloads\\Async_API_ASP.NETCore-master\\Async_API_ASP.NETCore-master\\Books.Api\\Books.Api.csproj",
         "projectName": "Books.Api",
-        "projectPath": "C:\\Users\\sandeep.kandagatla\\source\\repos\\Books\\Books.Api\\Books.Api.csproj",
-        "packagesPath": "C:\\Users\\sandeep.kandagatla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sandeep.kandagatla\\source\\repos\\Books\\Books.Api\\obj\\",
+        "projectPath": "C:\\Users\\kanda\\Downloads\\Async_API_ASP.NETCore-master\\Async_API_ASP.NETCore-master\\Books.Api\\Books.Api.csproj",
+        "packagesPath": "C:\\Users\\kanda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanda\\Downloads\\Async_API_ASP.NETCore-master\\Async_API_ASP.NETCore-master\\Books.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sandeep.kandagatla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -54,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -74,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

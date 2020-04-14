@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\kanda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kanda\\.nuget\\packages"
+    ]
+  }
+}

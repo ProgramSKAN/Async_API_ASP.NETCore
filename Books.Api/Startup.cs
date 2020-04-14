@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Books.Api.Services;
+using AutoMapper;
 
 namespace Books.Api
 {
@@ -40,6 +41,11 @@ namespace Books.Api
              * if we use transitent> as each time we request service with transient lifetime a new instance is served up,so we loose any state that our repository might hold, if it is requested by multiptle parts of our code.
              * so use scoped lifetime.
              */
+
+            //register Automapper
+            services.AddAutoMapper();//it not only register services, i will also scan the code and look for classes that inherit from profile and if it finds one like "BooksProfile", it will load there configuration mappings.use services.AddAutoMapper(typeof(Startup)); in latest version
+
+            services.AddHttpClient();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
